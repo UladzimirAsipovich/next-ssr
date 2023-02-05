@@ -1,0 +1,43 @@
+{
+  "name": "d17test",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "start2": "next start",
+    "dev server": "node server.js",
+    "start server": "cross-env NODE_ENV=production node server.js ",
+    "zip": "node archiver.js"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@fontsource/roboto": "^4.5.8",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.6",
+    "cross-env": "^7.0.3",
+    "mobx": "^6.7.0",
+    "mobx-react": "^7.6.0",
+    "mobx-react-lite": "^3.4.0",
+    "next": "12.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sharp": "^0.31.1"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.0",
+    "@types/react": "18.0.21",
+    "@types/react-dom": "18.0.6",
+    "archiver": "^5.3.1",
+    "autoprefixer": "^10.4.12",
+    "eslint": "8.25.0",
+    "eslint-config-next": "12.3.1",
+    "postcss": "^8.4.18",
+    "postcss-import": "^15.0.0",
+    "prettier": "^2.7.1",
+    "sass": "^1.57.1",
+    "typescript": "4.8.4"
+  }
+}
